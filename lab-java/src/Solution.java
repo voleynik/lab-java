@@ -10,9 +10,9 @@ public class Solution {
 					System.out.println("p: " + p + ", q: " + q + ", r: " + r);
 					if(0 <= p && p < q && q < r && r < ar.length && 
 							(ar[p] + ar[q]) > ar[r] && (ar[q] + ar[r]) >  ar[p] && (ar[r] + ar[p] > ar[q])){
-						int max_temp = ar[p] + ar[q] + ar[r];
-						if(max_temp > max){
-							max = max_temp;
+						int maxTemp = ar[p] + ar[q] + ar[r];
+						if(maxTemp > max){
+							max = maxTemp;
 						}		
 					}
 				}
