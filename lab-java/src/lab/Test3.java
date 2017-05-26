@@ -1,3 +1,4 @@
+package lab;
 public class Test3 {
 
 	public int solution(int input){

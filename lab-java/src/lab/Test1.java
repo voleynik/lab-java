@@ -1,3 +1,4 @@
+package lab;
 public class Test1 {
 
 	public int solution(int n1, int n2){

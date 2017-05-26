@@ -1,3 +1,4 @@
+package lab;
 public class Solution {
 
 	public int solution(int[] ar){
