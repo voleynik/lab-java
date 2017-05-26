@@ -1,36 +1,76 @@
-package lab.codility;
-public class Solution {
+package lab;
+public class Test1 {
 
-	public int solution(int[] ar){
+	public int solution(int n1, int n2){
 		
-		int max  = -1;
-		
-		for (int p = 0; p < ar.length - 2; p++) {				
-			for(int q = p + 1; q < ar.length - 1; q++){
-				for(int r = q + 1; r < ar.length; r++){
-					System.out.println("p: " + p + ", q: " + q + ", r: " + r);
-					if(0 <= p && p < q && q < r && r < ar.length && 
-							(ar[p] + ar[q]) > ar[r] && (ar[q] + ar[r]) >  ar[p] && (ar[r] + ar[p] > ar[q])){
-						int maxTemp = ar[p] + ar[q] + ar[r];
-						if(maxTemp > max){
-							max = maxTemp;
-						}		
-					}
-				}
-			}
+		if(n1 < 0 || n2 < 0){
+			throw new IllegalArgumentException("Negatives are not allowed.");
 		}
-
-		return max;
+		
+		String a = String.valueOf(n1);
+		String b = String.valueOf(n2);
+		return b.indexOf(a);
 	}
 	
 	public static void main(String[] args) {
 		
-		Solution s = new Solution();
+		Test1 s = new Test1();
+		int result = -1;
 		
-		int max = -1;
+		try {
+			result = s.solution(0, 0);
+			System.out.println("result 1 " + result);
+		} catch (Exception e) {
+			System.out.println("Error " + e.getMessage());
+		}
 		
-		int[] ar1 = {10, 2, 5, 1, 8, 20};
-		max = s.solution(ar1);
-		System.out.println("max: " + max);
+		try {
+			result = s.solution(999999999, 999999999);
+			System.out.println("result 2 " + result);
+		} catch (Exception e) {
+			System.out.println("Error " + e.getMessage());
+		}
+	
+		try {
+			result = s.solution(999999999, 0);
+			System.out.println("result 3 " + result);
+		} catch (Exception e) {
+			System.out.println("Error " + e.getMessage());
+		}
+		
+		try {
+			result = s.solution(53, 1953786);
+			System.out.println("result 4 " + result);
+		} catch (Exception e) {
+			System.out.println("Error " + e.getMessage());
+		}
+		
+		try {
+			result = s.solution(78, 195378678);
+			System.out.println("result 5 " + result);
+		} catch (Exception e) {
+			System.out.println("Error " + e.getMessage());
+		}
+		
+		try {
+			result = s.solution(57, 1533786);
+			System.out.println("result 6 " + result);
+		} catch (Exception e) {
+			System.out.println("Error " + e.getMessage());
+		}
+	
+		try {
+			result = s.solution(1, 53378671);
+			System.out.println("result 7 " + result);
+		} catch (Exception e) {
+			System.out.println("Error " + e.getMessage());
+		}
+		
+		try {
+			result = s.solution(-1, 1533786);
+			System.out.println("result 8 " + result);
+		} catch (Exception e) {
+			System.out.println("Error " + e.getMessage());
+		}
 	}
 }
