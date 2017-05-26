@@ -31,7 +31,6 @@ public class Solution {
 		
 		int[] ar1 = {10, 2, 5, 1, 8, 20};
 		max = s.solution(ar1);
-		
-		System.out.println("max: " + max);
+		System.out.println("~max: " + max);
 	}
 }
