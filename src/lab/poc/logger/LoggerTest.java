@@ -1,4 +1,4 @@
-package lab.logger;
+package lab.poc.logger;
 
 public class LoggerTest {
 	public static void main(String[] args) {

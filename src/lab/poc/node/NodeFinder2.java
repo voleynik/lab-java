@@ -1,4 +1,4 @@
-package lab.node;
+package lab.poc.node;
 
 public class NodeFinder2 {
 

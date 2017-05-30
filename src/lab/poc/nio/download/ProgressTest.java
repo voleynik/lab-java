@@ -1,4 +1,4 @@
-package lab.nio.download;
+package lab.poc.nio.download;
 /* Imports java.util package class. */
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;

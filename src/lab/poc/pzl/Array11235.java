@@ -1,4 +1,4 @@
-package lab.pzl;
+package lab.poc.pzl;
 
 public class Array11235 {
 

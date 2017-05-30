@@ -1,6 +1,6 @@
-package lab.pzl;
+package lab.poc.pzl;
 
-import lab.util.Util;
+import lab.poc.util.Util;
 
 //~~~ Find duplicate elements.
 public class FindDupElem {

@@ -1,4 +1,4 @@
-package lab.junit;
+package lab.poc.junit;
 
 class Money {
   private int amount;

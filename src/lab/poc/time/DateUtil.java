@@ -1,4 +1,4 @@
-package lab.time;
+package lab.poc.time;
 import java.util.Calendar;
 
 public class DateUtil {

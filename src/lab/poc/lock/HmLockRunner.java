@@ -1,4 +1,4 @@
-package lab.lock;
+package lab.poc.lock;
 
 public class HmLockRunner {
 

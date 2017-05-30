@@ -1,4 +1,4 @@
-package lab.object;
+package lab.poc.object;
 
 public class MyObject {
 
@@ -33,7 +33,7 @@ public class MyObject {
 	public boolean equals(Object obj){
 		if (obj == null) return false;	
 		if (obj == this) return true;	
-		if ( ! (obj instanceof lab.object.MyObject)) return false;
+		if ( ! (obj instanceof lab.poc.object.MyObject)) return false;
 		
 		//~ Atributes to be used for hashCOde calculation.
 		if(((MyObject)obj).getMyInt() != this.getMyInt()) return false;

@@ -1,15 +1,15 @@
-package lab.stk;
+package lab.poc.stk;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.sql.Timestamp;
 
-import lab.jdbc.Db;
+import lab.poc.jdbc.Db;
 public class RefreshAll {
 	public static void main(String[] args) {
 		double t1 = System.currentTimeMillis();
-		lab.jdbc.Db.userDir = "K:/db";
+		lab.poc.jdbc.Db.userDir = "K:/db";
 		Connection dc = null;
 	    Statement st = null;
 	    ResultSet rs = null;

@@ -1,4 +1,4 @@
-package lab.stk;
+package lab.poc.stk;
 
 public class Stk {
 	private String _s;

@@ -1,4 +1,4 @@
-package lab.time;
+package lab.poc.time;
 
 public class ConvertLong {
 	public static void main(String[] args) {

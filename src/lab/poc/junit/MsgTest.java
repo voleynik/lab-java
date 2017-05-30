@@ -1,4 +1,4 @@
-package lab.junit;
+package lab.poc.junit;
 import junit.textui.*;
 import junit.framework.*;
 

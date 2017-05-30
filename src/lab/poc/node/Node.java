@@ -1,4 +1,4 @@
-package lab.node;
+package lab.poc.node;
 import java.util.List;
 
 public class Node {

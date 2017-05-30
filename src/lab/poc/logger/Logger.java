@@ -1,4 +1,4 @@
-package lab.logger;
+package lab.poc.logger;
 import java.util.Calendar;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package lab.patterns.AbstractFactory;
+package lab.poc.patterns.AbstractFactory;
 
 public class Client {
 

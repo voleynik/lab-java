@@ -1,4 +1,4 @@
-package lab.nio.download;
+package lab.poc.nio.download;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.Font;

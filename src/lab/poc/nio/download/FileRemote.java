@@ -1,4 +1,4 @@
-package lab.nio.download;
+package lab.poc.nio.download;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.Vector;

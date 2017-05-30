@@ -1,4 +1,4 @@
-package lab.logger;
+package lab.poc.logger;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.text.DateFormat;

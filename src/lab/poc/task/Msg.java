@@ -1,4 +1,4 @@
-package lab.task;
+package lab.poc.task;
 
 public interface Msg {
   public static final String D0001 = "Daily message 1.";

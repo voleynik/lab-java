@@ -1,4 +1,4 @@
-package lab.lang;
+package lab.poc.lang;
 import java.util.*;
 
 public class MapTest {

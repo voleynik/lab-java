@@ -1,4 +1,4 @@
-package lab.regex;
+package lab.poc.regex;
 import java.io.*;
 import java.util.regex.*;
 public final class RegexTestHarness {

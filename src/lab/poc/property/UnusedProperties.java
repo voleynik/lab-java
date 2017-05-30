@@ -1,4 +1,4 @@
-package lab.property;
+package lab.poc.property;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;

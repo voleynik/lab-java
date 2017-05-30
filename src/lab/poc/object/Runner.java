@@ -1,4 +1,4 @@
-package lab.object;
+package lab.poc.object;
 
 public class Runner {
 

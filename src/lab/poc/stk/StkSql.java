@@ -1,11 +1,11 @@
-package lab.stk;
+package lab.poc.stk;
 import java.sql.Connection;
 import java.sql.Statement;
 import java.sql.Timestamp;
 
-import lab.jdbc.Db;
-import lab.jdbc.SqlRunner;
-import lab.util.Lgr;
+import lab.poc.jdbc.Db;
+import lab.poc.jdbc.SqlRunner;
+import lab.poc.util.Lgr;
 
 public class StkSql {
 	public static final String tbl = "S";

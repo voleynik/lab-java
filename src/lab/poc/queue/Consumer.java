@@ -1,4 +1,4 @@
-package lab.queue;
+package lab.poc.queue;
 
 class Consumer extends Thread {
 	public String name;

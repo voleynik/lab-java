@@ -1,10 +1,10 @@
-package lab.stk;
+package lab.poc.stk;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.net.URLConnection;
 
-import lab.util.Const;
-import lab.util.Util;
+import lab.poc.util.Const;
+import lab.poc.util.Util;
 
 public class GetNyse implements Const{
 	//public static final String nyse1 = "http://www.nyse.com/about/listed/lcddata.html?ticker=";

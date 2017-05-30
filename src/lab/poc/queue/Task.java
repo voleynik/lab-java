@@ -1,7 +1,7 @@
 /* Task - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-package lab.queue;
+package lab.poc.queue;
 
 class Task
 {

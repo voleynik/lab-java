@@ -1,4 +1,4 @@
-package lab.property;
+package lab.poc.property;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.util.Enumeration;
 import java.util.Properties;
 
-import lab.util.IConstant;
+import lab.poc.util.IConstant;
 
 /**
  * This class loads and holds properties from 'app.properties' file.

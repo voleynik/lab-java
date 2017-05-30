@@ -1,4 +1,4 @@
-package lab.property;
+package lab.poc.property;
 import java.util.*;
 
 /** ~~ Print all system properties. */

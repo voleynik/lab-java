@@ -1,4 +1,4 @@
-package lab.nio;
+package lab.poc.nio;
 
 import java.io.*;
 import java.nio.*;

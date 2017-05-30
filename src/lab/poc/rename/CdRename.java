@@ -1,4 +1,4 @@
-package lab.rename;
+package lab.poc.rename;
 import java.io.File;
 public class CdRename { 
 

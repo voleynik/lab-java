@@ -1,4 +1,4 @@
-package lab.task;
+package lab.poc.task;
 import java.util.Date;
 
 public class Task {

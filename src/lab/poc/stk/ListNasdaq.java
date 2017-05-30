@@ -1,11 +1,11 @@
-package lab.stk;
+package lab.poc.stk;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import lab.util.Const;
-import lab.util.Util;
+import lab.poc.util.Const;
+import lab.poc.util.Util;
 
 public class ListNasdaq implements Const{
 	private static final String nsdq1 = "http://www.nasdaq.com/asp/symbols.asp?exchange=Q&start=";
@@ -19,7 +19,7 @@ public class ListNasdaq implements Const{
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	public static void main(String[] args) {
 		double t1 = System.currentTimeMillis();
-		lab.jdbc.Db.userDir = "K:/db";			
+		lab.poc.jdbc.Db.userDir = "K:/db";			
 		//~ Process alphabet.
 		for(int i = 0; i < Const.engLetters.length; i++){   
 			String s1 = new String(nsdq1 + Const.engLetters[i] + nsdq2);

@@ -1,4 +1,4 @@
-package lab.jdbc;
+package lab.poc.jdbc;
 
 public class EmailSenderTable {
 /*   

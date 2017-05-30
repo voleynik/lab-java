@@ -1,4 +1,4 @@
-package lab.pzl;
+package lab.poc.pzl;
 import java.util.ArrayList;
 
 public class Polindrom {

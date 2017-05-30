@@ -1,4 +1,4 @@
-package lab.jdbc;
+package lab.poc.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

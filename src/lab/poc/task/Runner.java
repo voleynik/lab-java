@@ -1,4 +1,4 @@
-package lab.task;
+package lab.poc.task;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.util.Date;

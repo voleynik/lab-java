@@ -1,7 +1,7 @@
 /* Producer - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-package lab.queue;
+package lab.poc.queue;
 
 class Producer extends Thread {
 	public String name;

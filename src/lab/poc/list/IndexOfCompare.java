@@ -1,4 +1,4 @@
-package lab.list;
+package lab.poc.list;
 import java.util.*;
 
 public class IndexOfCompare {

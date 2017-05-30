@@ -1,4 +1,4 @@
-package lab.thread;
+package lab.poc.thread;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.Random;

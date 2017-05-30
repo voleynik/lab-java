@@ -1,4 +1,4 @@
-package lab.nio;
+package lab.poc.nio;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.ServerSocketChannel;

@@ -1,4 +1,4 @@
-package lab.nio.download;
+package lab.poc.nio.download;
 import java.io.Serializable;
 /*
 class FileInfo - This class stores the file description, such as file index, file name, and file size.

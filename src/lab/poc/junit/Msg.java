@@ -1,4 +1,4 @@
-package lab.junit;
+package lab.poc.junit;
 
 class Msg {
   private String str;

@@ -1,8 +1,8 @@
-package lab.jdbc;
+package lab.poc.jdbc;
 import java.sql.*;
 
 public class DbMetaData {
-	public static String thisClass = "lab.jdbc.DbMetaData";
+	public static String thisClass = "lab.poc.jdbc.DbMetaData";
 	public static void main(String[] args) {
 
 		DatabaseMetaData dbmd = null;

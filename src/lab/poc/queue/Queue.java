@@ -1,4 +1,4 @@
-package lab.queue;
+package lab.poc.queue;
 import java.util.*;
 
 class Queue {

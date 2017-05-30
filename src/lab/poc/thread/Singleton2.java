@@ -1,4 +1,4 @@
-package lab.thread;
+package lab.poc.thread;
 
 public class Singleton2 {
 

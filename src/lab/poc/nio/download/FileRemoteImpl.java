@@ -1,4 +1,4 @@
-package lab.nio.download;
+package lab.poc.nio.download;
 import java.io.File;
 import java.io.FileInputStream;
 import java.nio.ByteBuffer;

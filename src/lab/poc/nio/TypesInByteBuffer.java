@@ -1,4 +1,4 @@
-package lab.nio;
+package lab.poc.nio;
 import java.nio.*;
 
 public class TypesInByteBuffer

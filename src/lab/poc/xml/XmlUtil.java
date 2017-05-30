@@ -1,4 +1,4 @@
-package lab.xml;
+package lab.poc.xml;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;

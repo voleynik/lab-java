@@ -1,11 +1,11 @@
-package lab.test.stk.Load;
+package lab.poc.test.stk.Load;
 import java.io.File;
 import java.io.FileReader;
 
-import lab.jdbc.Db;
-import lab.stk.ListNasdaq;
-import lab.stk.StkSql;
-import lab.util.Util;
+import lab.poc.jdbc.Db;
+import lab.poc.stk.ListNasdaq;
+import lab.poc.stk.StkSql;
+import lab.poc.util.Util;
 
 public class GetNasdaqSymbols {
 

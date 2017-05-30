@@ -1,4 +1,4 @@
-package lab.queue;
+package lab.poc.queue;
 
 public class Runner {
 	public static void main(String[] args) {

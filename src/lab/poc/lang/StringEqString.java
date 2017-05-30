@@ -1,4 +1,4 @@
-package lab.lang;
+package lab.poc.lang;
 
 public class StringEqString {
 

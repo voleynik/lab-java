@@ -1,10 +1,10 @@
-package lab.jdbc;
+package lab.poc.jdbc;
 
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.SQLException;
 
-import lab.property.AppProperties;
+import lab.poc.property.AppProperties;
 
 public class DbServerInfo {
 //private DatabaseMetaData dbmd;

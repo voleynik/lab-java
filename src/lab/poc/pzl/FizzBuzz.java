@@ -1,4 +1,4 @@
-package lab.pzl;
+package lab.poc.pzl;
 public class FizzBuzz {
 
 	public static void main(String[] args) {
