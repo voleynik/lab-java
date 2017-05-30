@@ -1,0 +1,15 @@
+Runner.run() - Wed Dec 08 13:21:04 PST 2004 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Daily.run()   - Wed Dec 08 13:21:05 PST 2004
+Task.run()   - Wed Dec 08 13:21:05 PST 2004
+ERROR D0001 Daily message 1.
+Number of errors: 0
+Runner.run() - Thu Dec 09 13:21:03 PST 2004 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Daily.run()   - Thu Dec 09 13:21:03 PST 2004
+Task.run()   - Thu Dec 09 13:21:03 PST 2004
+ERROR D0001 Daily message 1.
+Number of errors: 0
+Runner.run() - Fri Dec 10 13:21:03 PST 2004 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Daily.run()   - Fri Dec 10 13:21:03 PST 2004
+Task.run()   - Fri Dec 10 13:21:03 PST 2004
+ERROR D0001 Daily message 1.
+Number of errors: 0
