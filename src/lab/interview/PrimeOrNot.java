@@ -13,7 +13,7 @@ public class PrimeOrNot {
 	}
 	
 	private static boolean isPrime(int n){
-		if(n < 4){
+		if(n > 0 && n < 4){
 			return true;
 		}
 		if(n % 2 == 0){
