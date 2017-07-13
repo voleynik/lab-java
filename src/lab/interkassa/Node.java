@@ -1,11 +1,12 @@
 package lab.interkassa;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
 public class Node extends Component{
 
-	List<Component> leaves = new LinkedList<Component>();
+	LinkedList<Component> leaves = new LinkedList<Component>();
 	
 	@Override
 	public void addComponent(Component c) {
@@ -21,4 +22,9 @@ public class Node extends Component{
 	public void setWeight(int w) {
 		// not needed	
 	}
+
+	@Override
+	public LinkedList getChildren() {
+		return leaves;
+	}	
 }

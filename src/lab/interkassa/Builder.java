@@ -1,8 +1,8 @@
 package lab.interkassa;
 
-public class NodeBuilder {
+public class Builder {
 
-	public Component buildNode(){
+	public static Component buildNode(){
 		
 		// lvl 3
 		Component n1_1 = new Node();
@@ -23,7 +23,7 @@ public class NodeBuilder {
 		l1_1.setWeight(1);
 		
 		Component n2_1 = new Node();
-		n1_1.setId("N2.1");
+		n2_1.setId("N2.1");
 		Component n2_2 = new Node();
 		n2_2.setId("N2.2");
 		Component n2_3 = new Node();
@@ -31,7 +31,7 @@ public class NodeBuilder {
 		
 		Component l3_2 = new Leaf();
 		l3_2.setId("L3.2");
-		l1_2.setWeight(2);
+		l3_2.setWeight(2);
 		
 		Component l3_1 = new Leaf();
 		l3_1.setId("L3.1");
@@ -67,6 +67,7 @@ public class NodeBuilder {
 		
 		// lvl 1
 		Component root = new Node();
+		root.setId("R");
 		root.addComponent(n1);
 		root.addComponent(n2);
 		root.addComponent(n3);

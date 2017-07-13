@@ -1,5 +1,7 @@
 package lab.interkassa;
 
+import java.util.LinkedList;
+
 public class Leaf extends Component{
 
 	int weight;
@@ -18,5 +20,9 @@ public class Leaf extends Component{
 	public void setWeight(int w) {
 		weight = w;
 	}
-
+	
+	@Override
+	public LinkedList getChildren() {
+		return null;
+	}
 }
