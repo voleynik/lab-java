@@ -8,7 +8,7 @@ public class Node extends Component{
 	List<Component> leaves = new LinkedList<Component>();
 	
 	@Override
-	public void addLeaf(Component c) {
+	public void addComponent(Component c) {
 		leaves.add(c);	
 	}
 

@@ -5,7 +5,7 @@ public class Leaf extends Component{
 	int weight;
 	
 	@Override
-	public void addLeaf(Component c) {
+	public void addComponent(Component c) {
 		// not needed
 	}
 

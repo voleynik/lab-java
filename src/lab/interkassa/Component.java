@@ -2,7 +2,7 @@ package lab.interkassa;
 
 public abstract class Component {
 
-	public abstract void addLeaf(Component c);
+	public abstract void addComponent(Component c);
 	public abstract int getWeight();
 	public abstract void setWeight(int w);
 	
