@@ -1,4 +1,4 @@
-package lab.codility.binarygap;
+package lab.codility.iterations.binarygap;
 
 class Solution {
 
@@ -13,14 +13,14 @@ class Solution {
 		maxGapSize = sol.solution(15);// 0
 		maxGapSize = sol.solution(375);// 1
 		maxGapSize = sol.solution(999);// 2
-		maxGapSize = sol.solution(1041);// 3
+		maxGapSize = sol.solution(1041);// 5
 	}
 	
 	public int solution(int input){//*
 		
 		String strBin = Integer.toBinaryString(input);
 		
-		//System.out.print("Array: " + strBin);
+		System.out.print("int: " + input + ", Array: " + strBin);
 		
 		char[] arrBin = strBin.toCharArray();
 		int maxGapSize = 0;
@@ -39,7 +39,7 @@ class Solution {
 			}			
 		}
 		
-		//System.out.println(" - maxGapSize: " + maxGapSize);
+		System.out.println(" - maxGapSize: " + maxGapSize);
 
 		return maxGapSize;
 	}

@@ -1,39 +1,36 @@
-package lab.codility.OddOccurrencesInArray;
+package lab.codility.arrays.OddOccurrencesInArray;
 
 import java.security.InvalidParameterException;
 
 public class Solution {
 
-	public int solution(int[] arrInput){// {9, 3, 9, 3, 9, 9, 7};
+	public int solution(int[] A){
 		
-		if(arrInput == null || arrInput.length < 1){
-			throw new InvalidParameterException();
-		}
 		int result = -1;
 		boolean found = false;
 		
-		for (int i = 0; i < arrInput.length; i++) {			
-			if(arrInput[i] == -1 ){
+		for (int i = 0; i < A.length; i++) {			
+			if(A[i] == -1 ){
 				continue;
 			}	
 			
 			found = false;
 					
-			for (int j = i + 1; j < arrInput.length; j++) {
-				if(arrInput[j] == -1 ){
+			for (int j = i + 1; j < A.length; j++) {
+				if(A[j] == -1 ){
 					continue;
 				}
 				
-				if(arrInput[i] == arrInput[j]){
-					arrInput[i] = -1;
-					arrInput[j] = -1;
+				if(A[i] == A[j]){
+					A[i] = -1;
+					A[j] = -1;
 					found = true;
 					break;
 				}
 			}
 			
 			if( ! found){
-				result = arrInput[i];
+				result = A[i];
 			}
 		}
 		

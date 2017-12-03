@@ -1,24 +1,17 @@
-package lab.codility.rotation;
-
-import java.security.InvalidParameterException;
-import java.util.Arrays;
+package lab.codility.arrays.CyclicRotation;
 
 import lab.codility.Util;
 
 public class Solution {
 
-	public int[] solution(int[] arrInput, int k){// {9, 3, 9, 3, 9, 9, 7};
+	public int[] solution(int[] A, int K){
 		
-		if(arrInput == null || arrInput.length < 1){
-			throw new InvalidParameterException();
-		}
+		int[] left = java.util.Arrays.copyOfRange(A, A.length - K, A.length);
+		int[] right = java.util.Arrays.copyOfRange(A, 0, A.length - K);		
+		System.arraycopy(left, 	0, A, 0, 			left.length);
+		System.arraycopy(right, 0, A, left.length, 	right.length);
 		
-		int[] left = Arrays.copyOfRange(arrInput, arrInput.length - k, arrInput.length);
-		int[] right = Arrays.copyOfRange(arrInput, 0, arrInput.length - k);		
-		System.arraycopy(left, 	0, arrInput, 0, 			left.length);
-		System.arraycopy(right, 0, arrInput, left.length, 	right.length);
-		
-		return arrInput;	
+		return A;	
 	}
 	
 	public static void main(String[] args) {
