@@ -1,8 +1,8 @@
-package lab.codility.arrays.CyclicRotation;
+package lab.codility.arrays;
 
 import lab.codility.Util;
 
-public class Solution {
+public class CyclicRotation {
 
 	public int[] solution(int[] A, int K){
 		
@@ -15,7 +15,7 @@ public class Solution {
 	}
 	
 	public static void main(String[] args) {
-		Solution sol = new Solution();
+		CyclicRotation sol = new CyclicRotation();
 		
 		int[] arr1 = {0, 1, 2, 3, 4, 5, 6};
 		Util.print(arr1, " Before", 0);

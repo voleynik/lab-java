@@ -1,10 +1,10 @@
-package lab.codility.iterations.binarygap;
+package lab.codility.iterations;
 
-class Solution {
+class BinaryGap {
 
 	public static void main(String[] args) {//*
 		
-		Solution sol = new Solution();//*
+		BinaryGap sol = new BinaryGap();
 		
 		int
 		maxGapSize = sol.solution(9);// 2

@@ -1,17 +1,15 @@
-package lab.codility.missingelement;
+package lab.codility.timecomplexity;
 
-import java.util.Arrays;
+class PermMissingElem {
 
-class Solution {
+	public int solution(int[] A){
 
-	public int solution(int[] input){
-
-		Arrays.sort(input);
+		java.util.Arrays.sort(A);
 		
-		for (int i = 0; i < input.length; i++) {
+		for (int i = 0; i < A.length; i++) {
 				
-			if(input[i + 1] - input[i] > 1){
-				return input[i] + 1;
+			if(A[i + 1] - A[i] > 1){
+				return A[i] + 1;
 			}
 		}
 
@@ -20,7 +18,7 @@ class Solution {
 	
 	public static void main(String[] args) {
 		
-		Solution sol = new Solution();
+		PermMissingElem sol = new PermMissingElem();
 		
 		int[] input1 = {3,4,1,2,8,6,5,9};// 7
 		int missing = sol.solution(input1);

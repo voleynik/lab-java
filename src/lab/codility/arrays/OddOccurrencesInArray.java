@@ -1,8 +1,6 @@
-package lab.codility.arrays.OddOccurrencesInArray;
+package lab.codility.arrays;
 
-import java.security.InvalidParameterException;
-
-public class Solution {
+public class OddOccurrencesInArray {
 
 	public int solution(int[] A){
 		
@@ -38,7 +36,7 @@ public class Solution {
 	}
 	
 	public static void main(String[] args) {
-		Solution sol = new Solution();
+		OddOccurrencesInArray sol = new OddOccurrencesInArray();
 		
 		int[] arr1 = {9, 7, 9, 3, 9, 9, 3};
 		int result = sol.solution(arr1);
