@@ -1,4 +1,5 @@
 package lab.codility;
+
 public class Solution {
 
 	public int solution(int n1, int n2){
