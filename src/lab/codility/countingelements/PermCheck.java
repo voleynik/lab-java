@@ -16,7 +16,7 @@ class PermCheck {
 
 		return 1;
 	}
-	
+//given a zero-indexed array A, returns 1 if array A is a permutation and 0 if it is not.	
 	public static void main(String[] args) {
 		
 		PermCheck sol = new PermCheck();

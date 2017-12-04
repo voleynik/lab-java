@@ -1,25 +1,41 @@
 package lab.codility.prefixsums;
 
+class PassingCars {
 
-class PassingCars {// NEXT
-
-	public int solution(int A, int B, int K){
+	public int solution(int[] A){
 			
-		int intCount = 0;
-		for (int i = A; i <= B; i++) {
-			if((i % K) == 0){
-				intCount += 1;
-			}
+		int passCount = 0;
+		int start = A[0];
+		for (int i = 0; i < A.length - 1; i++) {
+			if(A[i] == start){
+				for(int j = i + 1; j < A.length; j++){
+					if(A[j] != start){
+						passCount ++;
+						if(passCount > 1000000000){
+							return -1;
+						}
+					}
+				}
+			}	
 		}
 
-		return intCount;
+		return passCount;
 	}
 	
 	public static void main(String[] args) {
 		
 		PassingCars sol = new PassingCars();
 		
-		int res1 = sol.solution(6, 11, 2);
-		System.out.println("perm: " + res1);//
+		int[] A3 = {1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0};
+		int res = sol.solution(A3);
+		System.out.println("res: " + res);
+		
+		int[] A2 = {1,0,1,0,0};
+		res = sol.solution(A2);
+		System.out.println("res: " + res);
+		
+		int[] A1 = {0,1,0,1,1};
+		res = sol.solution(A1);
+		System.out.println("res: " + res);
 	}
 }
