@@ -8,3 +8,9 @@ public class UserStatusTest {
         System.out.println(UserStatus.DELETED);
     }
 }
+/* Prints:
+PENDING
+ACTIVE
+INACTIVE
+DELETED
+*/
